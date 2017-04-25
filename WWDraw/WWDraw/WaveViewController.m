@@ -33,6 +33,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"波浪效果图";
     
+    WWWaveView *waveView = [[WWWaveView alloc] init];
     [self.view addSubview:self.waveView];
     self.waveView.frame= CGRectMake(0, 0, self.view.frame.size.width, 100);
     self.waveView.backgroundColor = [[UIColor orangeColor] colorWithAlphaComponent:0.2];
@@ -43,7 +44,7 @@
     self.waveView.secondLayerColor = [UIColor orangeColor];
     self.waveView.waveHeight = 40;
     self.waveView.waveCurvature = 1.5;
-    self.waveView.waveSpeed = 0.5;
+    self.waveView.waveSpeed = 1.5;
     
     // 开始动画
     [self.waveView startAnimation];

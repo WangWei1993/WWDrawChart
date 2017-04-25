@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void(^WaveViewBlock)(CGFloat currentY);
-
 @interface WWWaveView : UIView
+
+typedef void(^WaveViewBlock)(CGFloat currentY);
 
 /**
  *  浪弯曲度率

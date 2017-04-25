@@ -13,10 +13,10 @@
 		4A2E2F541EAEEC7C00B52AFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2E2F521EAEEC7C00B52AFB /* Main.storyboard */; };
 		4A2E2F561EAEEC7C00B52AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2E2F551EAEEC7C00B52AFB /* Assets.xcassets */; };
 		4A2E2F591EAEEC7C00B52AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2E2F571EAEEC7C00B52AFB /* LaunchScreen.storyboard */; };
-		4A2E2F881EAEFC6B00B52AFB /* WWWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E2F871EAEFC6B00B52AFB /* WWWaveView.m */; };
 		4A2E2F8B1EAF196600B52AFB /* LineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E2F8A1EAF196600B52AFB /* LineViewController.m */; };
-		4A2E2F8E1EAF19BB00B52AFB /* LineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E2F8D1EAF19BB00B52AFB /* LineModel.m */; };
 		4A2E2F911EAF218900B52AFB /* WaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E2F901EAF218900B52AFB /* WaveViewController.m */; };
+		4A2E2F9A1EAF4A6100B52AFB /* LineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E2F931EAF4A6000B52AFB /* LineModel.m */; };
+		4A2E2F9B1EAF4A6100B52AFB /* WWWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E2F991EAF4A6100B52AFB /* WWWaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,14 +30,14 @@
 		4A2E2F551EAEEC7C00B52AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A2E2F581EAEEC7C00B52AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A2E2F5A1EAEEC7C00B52AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A2E2F861EAEFC6B00B52AFB /* WWWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWWaveView.h; sourceTree = "<group>"; };
-		4A2E2F871EAEFC6B00B52AFB /* WWWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWWaveView.m; sourceTree = "<group>"; };
 		4A2E2F891EAF196600B52AFB /* LineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineViewController.h; sourceTree = "<group>"; };
 		4A2E2F8A1EAF196600B52AFB /* LineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineViewController.m; sourceTree = "<group>"; };
-		4A2E2F8C1EAF19BB00B52AFB /* LineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineModel.h; sourceTree = "<group>"; };
-		4A2E2F8D1EAF19BB00B52AFB /* LineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineModel.m; sourceTree = "<group>"; };
 		4A2E2F8F1EAF218900B52AFB /* WaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveViewController.h; sourceTree = "<group>"; };
 		4A2E2F901EAF218900B52AFB /* WaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveViewController.m; sourceTree = "<group>"; };
+		4A2E2F931EAF4A6000B52AFB /* LineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineModel.m; sourceTree = "<group>"; };
+		4A2E2F951EAF4A6000B52AFB /* LineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineModel.h; sourceTree = "<group>"; };
+		4A2E2F981EAF4A6000B52AFB /* WWWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWWaveView.h; sourceTree = "<group>"; };
+		4A2E2F991EAF4A6100B52AFB /* WWWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWWaveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,14 +70,14 @@
 		4A2E2F481EAEEC7C00B52AFB /* WWDraw */ = {
 			isa = PBXGroup;
 			children = (
-				4A2E2F8C1EAF19BB00B52AFB /* LineModel.h */,
-				4A2E2F8D1EAF19BB00B52AFB /* LineModel.m */,
+				4A2E2F921EAF4A6000B52AFB /* 折线图 */,
+				4A2E2F941EAF4A6000B52AFB /* 矩形图 */,
+				4A2E2F961EAF4A6000B52AFB /* 扇形图 */,
+				4A2E2F971EAF4A6000B52AFB /* WaveView */,
 				4A2E2F891EAF196600B52AFB /* LineViewController.h */,
 				4A2E2F8A1EAF196600B52AFB /* LineViewController.m */,
 				4A2E2F8F1EAF218900B52AFB /* WaveViewController.h */,
 				4A2E2F901EAF218900B52AFB /* WaveViewController.m */,
-				4A2E2F861EAEFC6B00B52AFB /* WWWaveView.h */,
-				4A2E2F871EAEFC6B00B52AFB /* WWWaveView.m */,
 				4A2E2F4C1EAEEC7C00B52AFB /* AppDelegate.h */,
 				4A2E2F4D1EAEEC7C00B52AFB /* AppDelegate.m */,
 				4A2E2F4F1EAEEC7C00B52AFB /* ViewController.h */,
@@ -97,6 +97,38 @@
 				4A2E2F4A1EAEEC7C00B52AFB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A2E2F921EAF4A6000B52AFB /* 折线图 */ = {
+			isa = PBXGroup;
+			children = (
+				4A2E2F931EAF4A6000B52AFB /* LineModel.m */,
+			);
+			path = "折线图";
+			sourceTree = "<group>";
+		};
+		4A2E2F941EAF4A6000B52AFB /* 矩形图 */ = {
+			isa = PBXGroup;
+			children = (
+				4A2E2F951EAF4A6000B52AFB /* LineModel.h */,
+			);
+			path = "矩形图";
+			sourceTree = "<group>";
+		};
+		4A2E2F961EAF4A6000B52AFB /* 扇形图 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "扇形图";
+			sourceTree = "<group>";
+		};
+		4A2E2F971EAF4A6000B52AFB /* WaveView */ = {
+			isa = PBXGroup;
+			children = (
+				4A2E2F981EAF4A6000B52AFB /* WWWaveView.h */,
+				4A2E2F991EAF4A6100B52AFB /* WWWaveView.m */,
+			);
+			path = WaveView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,13 +204,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2E2F9B1EAF4A6100B52AFB /* WWWaveView.m in Sources */,
 				4A2E2F511EAEEC7C00B52AFB /* ViewController.m in Sources */,
 				4A2E2F8B1EAF196600B52AFB /* LineViewController.m in Sources */,
 				4A2E2F4E1EAEEC7C00B52AFB /* AppDelegate.m in Sources */,
-				4A2E2F8E1EAF19BB00B52AFB /* LineModel.m in Sources */,
 				4A2E2F4B1EAEEC7C00B52AFB /* main.m in Sources */,
-				4A2E2F881EAEFC6B00B52AFB /* WWWaveView.m in Sources */,
 				4A2E2F911EAF218900B52AFB /* WaveViewController.m in Sources */,
+				4A2E2F9A1EAF4A6100B52AFB /* LineModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +372,7 @@
 				4A2E2F5F1EAEEC7C00B52AFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
