@@ -3,6 +3,8 @@
 ## waveView波浪View
 
 对外接口
+
+
 typedef void(^WaveViewBlock)(CGFloat currentY);
 
 /**
@@ -36,6 +38,8 @@ typedef void(^WaveViewBlock)(CGFloat currentY);
 - (void)stopAnimation;
 
 
+
+具体使用： 
 
 ```
 // 初始化
